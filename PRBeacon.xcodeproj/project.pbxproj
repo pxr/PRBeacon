@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD7032319005D460031C0BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7032219005D460031C0BA /* Foundation.framework */; };
+		DAD7032519005D460031C0BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7032419005D460031C0BA /* CoreGraphics.framework */; };
+		DAD7032719005D460031C0BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7032619005D460031C0BA /* UIKit.framework */; };
+		DAD7032D19005D460031C0BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD7032B19005D460031C0BA /* InfoPlist.strings */; };
+		DAD7032F19005D460031C0BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7032E19005D460031C0BA /* main.m */; };
+		DAD7033319005D460031C0BA /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7033219005D460031C0BA /* PRAppDelegate.m */; };
+		DAD7033519005D460031C0BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD7033419005D460031C0BA /* Images.xcassets */; };
+		DAD7033C19005D460031C0BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7033B19005D460031C0BA /* XCTest.framework */; };
+		DAD7033D19005D460031C0BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7032219005D460031C0BA /* Foundation.framework */; };
+		DAD7033E19005D460031C0BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7032619005D460031C0BA /* UIKit.framework */; };
+		DAD7034619005D460031C0BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD7034419005D460031C0BA /* InfoPlist.strings */; };
+		DAD7034819005D460031C0BA /* PRBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7034719005D460031C0BA /* PRBeaconTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD7033F19005D460031C0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD7031719005D460031C0BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD7031E19005D460031C0BA;
+			remoteInfo = PRBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD7031F19005D460031C0BA /* PRBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7032219005D460031C0BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAD7032419005D460031C0BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAD7032619005D460031C0BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAD7032A19005D460031C0BA /* PRBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRBeacon-Info.plist"; sourceTree = "<group>"; };
+		DAD7032C19005D460031C0BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAD7032E19005D460031C0BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD7033019005D460031C0BA /* PRBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRBeacon-Prefix.pch"; sourceTree = "<group>"; };
+		DAD7033119005D460031C0BA /* PRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRAppDelegate.h; sourceTree = "<group>"; };
+		DAD7033219005D460031C0BA /* PRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAppDelegate.m; sourceTree = "<group>"; };
+		DAD7033419005D460031C0BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAD7033A19005D460031C0BA /* PRBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7033B19005D460031C0BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DAD7034319005D460031C0BA /* PRBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRBeaconTests-Info.plist"; sourceTree = "<group>"; };
+		DAD7034519005D460031C0BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAD7034719005D460031C0BA /* PRBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRBeaconTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD7031C19005D460031C0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7032519005D460031C0BA /* CoreGraphics.framework in Frameworks */,
+				DAD7032719005D460031C0BA /* UIKit.framework in Frameworks */,
+				DAD7032319005D460031C0BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7033719005D460031C0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7033C19005D460031C0BA /* XCTest.framework in Frameworks */,
+				DAD7033E19005D460031C0BA /* UIKit.framework in Frameworks */,
+				DAD7033D19005D460031C0BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD7031619005D460031C0BA = {
+			isa = PBXGroup;
+			children = (
+				DAD7032819005D460031C0BA /* PRBeacon */,
+				DAD7034119005D460031C0BA /* PRBeaconTests */,
+				DAD7032119005D460031C0BA /* Frameworks */,
+				DAD7032019005D460031C0BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD7032019005D460031C0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7031F19005D460031C0BA /* PRBeacon.app */,
+				DAD7033A19005D460031C0BA /* PRBeaconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD7032119005D460031C0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7032219005D460031C0BA /* Foundation.framework */,
+				DAD7032419005D460031C0BA /* CoreGraphics.framework */,
+				DAD7032619005D460031C0BA /* UIKit.framework */,
+				DAD7033B19005D460031C0BA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD7032819005D460031C0BA /* PRBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7033119005D460031C0BA /* PRAppDelegate.h */,
+				DAD7033219005D460031C0BA /* PRAppDelegate.m */,
+				DAD7033419005D460031C0BA /* Images.xcassets */,
+				DAD7032919005D460031C0BA /* Supporting Files */,
+			);
+			path = PRBeacon;
+			sourceTree = "<group>";
+		};
+		DAD7032919005D460031C0BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7032A19005D460031C0BA /* PRBeacon-Info.plist */,
+				DAD7032B19005D460031C0BA /* InfoPlist.strings */,
+				DAD7032E19005D460031C0BA /* main.m */,
+				DAD7033019005D460031C0BA /* PRBeacon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD7034119005D460031C0BA /* PRBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7034719005D460031C0BA /* PRBeaconTests.m */,
+				DAD7034219005D460031C0BA /* Supporting Files */,
+			);
+			path = PRBeaconTests;
+			sourceTree = "<group>";
+		};
+		DAD7034219005D460031C0BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7034319005D460031C0BA /* PRBeaconTests-Info.plist */,
+				DAD7034419005D460031C0BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD7031E19005D460031C0BA /* PRBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7034B19005D460031C0BA /* Build configuration list for PBXNativeTarget "PRBeacon" */;
+			buildPhases = (
+				DAD7031B19005D460031C0BA /* Sources */,
+				DAD7031C19005D460031C0BA /* Frameworks */,
+				DAD7031D19005D460031C0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRBeacon;
+			productName = PRBeacon;
+			productReference = DAD7031F19005D460031C0BA /* PRBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD7033919005D460031C0BA /* PRBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7034E19005D460031C0BA /* Build configuration list for PBXNativeTarget "PRBeaconTests" */;
+			buildPhases = (
+				DAD7033619005D460031C0BA /* Sources */,
+				DAD7033719005D460031C0BA /* Frameworks */,
+				DAD7033819005D460031C0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD7034019005D460031C0BA /* PBXTargetDependency */,
+			);
+			name = PRBeaconTests;
+			productName = PRBeaconTests;
+			productReference = DAD7033A19005D460031C0BA /* PRBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD7031719005D460031C0BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PR;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					DAD7033919005D460031C0BA = {
+						TestTargetID = DAD7031E19005D460031C0BA;
+					};
+				};
+			};
+			buildConfigurationList = DAD7031A19005D460031C0BA /* Build configuration list for PBXProject "PRBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAD7031619005D460031C0BA;
+			productRefGroup = DAD7032019005D460031C0BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD7031E19005D460031C0BA /* PRBeacon */,
+				DAD7033919005D460031C0BA /* PRBeaconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD7031D19005D460031C0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7032D19005D460031C0BA /* InfoPlist.strings in Resources */,
+				DAD7033519005D460031C0BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7033819005D460031C0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7034619005D460031C0BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD7031B19005D460031C0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7033319005D460031C0BA /* PRAppDelegate.m in Sources */,
+				DAD7032F19005D460031C0BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7033619005D460031C0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7034819005D460031C0BA /* PRBeaconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD7034019005D460031C0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD7031E19005D460031C0BA /* PRBeacon */;
+			targetProxy = DAD7033F19005D460031C0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD7032B19005D460031C0BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD7032C19005D460031C0BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAD7034419005D460031C0BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD7034519005D460031C0BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD7034919005D460031C0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAD7034A19005D460031C0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD7034C19005D460031C0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRBeacon/PRBeacon-Prefix.pch";
+				INFOPLIST_FILE = "PRBeacon/PRBeacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAD7034D19005D460031C0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRBeacon/PRBeacon-Prefix.pch";
+				INFOPLIST_FILE = "PRBeacon/PRBeacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DAD7034F19005D460031C0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PRBeacon.app/PRBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRBeacon/PRBeacon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PRBeaconTests/PRBeaconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DAD7035019005D460031C0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PRBeacon.app/PRBeacon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRBeacon/PRBeacon-Prefix.pch";
+				INFOPLIST_FILE = "PRBeaconTests/PRBeaconTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD7031A19005D460031C0BA /* Build configuration list for PBXProject "PRBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7034919005D460031C0BA /* Debug */,
+				DAD7034A19005D460031C0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7034B19005D460031C0BA /* Build configuration list for PBXNativeTarget "PRBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7034C19005D460031C0BA /* Debug */,
+				DAD7034D19005D460031C0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD7034E19005D460031C0BA /* Build configuration list for PBXNativeTarget "PRBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7034F19005D460031C0BA /* Debug */,
+				DAD7035019005D460031C0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD7031719005D460031C0BA /* Project object */;
+}
